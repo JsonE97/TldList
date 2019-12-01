@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <string.h>
 
+// USAGE string for terminal
 #define USAGE "usage: %s begin_datestamp end_datestamp [file] ...\n"
 
 static void process(FILE *fd, TLDList *tld) {
